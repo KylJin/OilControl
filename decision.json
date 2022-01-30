@@ -1,0 +1,88 @@
+{
+    "oilfield": [
+        {
+            "production": 200,
+            "crude_delivery": [[[20, 20, 20]], [[30, 30, 30]]]
+        },
+        {
+            "production": 80,
+            "crude_delivery": [[[30, 30]]]
+        },
+        {
+            "production": 100,
+            "crude_delivery": [[[10, 10, 10]], [[20, 20, 20]]]
+        }
+    ],
+    "purchase": [
+        {
+            "purchase": [60, 60],
+            "crude_delivery": [[[20, 20]], [[40, 40]]]
+        },
+        {
+            "purchase": [20, 20, 20],
+            "crude_delivery": [[[20, 20, 20]]]
+        }
+    ],
+    "transfer": [
+        {
+            "crude_delivery": [[[30, 30, 30]], [[20, 20, 20]]]
+        },
+        {
+            "crude_delivery": [[[10, 10, 10, 5, 5]], [[20, 20, 20, 10, 10]]]
+        }
+    ],
+    "refinery": [
+        {
+            "scheme_idx": 0,
+            "process": 100,
+            "gas_delivery": [[10], [20]],
+            "diesel_delivery": [[10], [20]]
+        },
+        {
+            "scheme_idx": 1,
+            "process": 100,
+            "gas_delivery": [[10], [10]],
+            "diesel_delivery": [[20], [20]]
+        },
+        {
+            "scheme_idx": 2,
+            "process": 100,
+            "gas_delivery": [[30]],
+            "diesel_delivery": [[30]]
+        },
+        {
+            "scheme_idx": 0,
+            "process": 100,
+            "gas_delivery": [[10], [30]],
+            "diesel_delivery": [[10], [30]]
+        }
+    ],
+    "saleregion": [
+        {
+            "gas_delivery": [[10], [10]],
+            "diesel_delivery": [[10], [10]]
+        },
+        {
+            "gas_delivery": [[10], [10]],
+            "diesel_delivery": [[10], [10]]
+        }
+    ],
+    "province": [
+        {
+            "gas_need": 20,
+            "diesel_need": 20
+        },
+        {
+            "gas_need": 30,
+            "diesel_need": 30
+        },
+        {
+            "gas_need": 40,
+            "diesel_need": 40
+        },
+        {
+            "gas_need": 50,
+            "diesel_need": 50
+        }
+    ]
+}
