@@ -1,0 +1,141 @@
+{
+    "oilfield": [
+        {
+            "production": 200,
+            "crude_delivery": [
+                [[10, 10, 10], [10, 10, 10]], 
+                [[15, 15, 15], [15, 15, 15]]
+            ]
+        },
+        {
+            "production": 80,
+            "crude_delivery": [
+                [[15, 15], [15, 15]]
+            ]
+        },
+        {
+            "production": 100,
+            "crude_delivery": [
+                [[5, 5, 5], [5, 5, 5]], 
+                [[10, 10, 10], [10, 10, 10]]
+            ]
+        }
+    ],
+    "purchase": [
+        {
+            "purchase": [60, 60],
+            "crude_delivery": [
+                [[10, 10], [10, 10]], 
+                [[20, 20], [20, 20]]
+            ]
+        },
+        {
+            "purchase": [20, 20, 20],
+            "crude_delivery": [
+                [[10, 10, 10], [10, 10, 10]]
+            ]
+        }
+    ],
+    "transfer": [
+        {
+            "crude_delivery": [
+                [[15, 15, 15], [15, 15, 15]], 
+                [[10, 10, 10], [10, 10, 10]]
+            ]
+        },
+        {
+            "crude_delivery": [
+                [[5, 5, 5, 2.5, 2.5], [5, 5, 5, 2.5, 2.5]], 
+                [[10, 10, 10, 5, 5], [10, 10, 10, 5, 5]]
+            ]
+        }
+    ],
+    "refinery": [
+        {
+            "scheme_idx": 0,
+            "process": 100,
+            "gas_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ],
+            "diesel_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ]
+        },
+        {
+            "scheme_idx": 1,
+            "process": 100,
+            "gas_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ],
+            "diesel_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ]
+        },
+        {
+            "scheme_idx": 2,
+            "process": 100,
+            "gas_delivery": [
+                [10, 10, 10]
+            ],
+            "diesel_delivery": [
+                [10, 10, 10]
+            ]
+        },
+        {
+            "scheme_idx": 0,
+            "process": 100,
+            "gas_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ],
+            "diesel_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ]
+        }
+    ],
+    "saleregion": [
+        {
+            "gas_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ],
+            "diesel_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ]
+        },
+        {
+            "gas_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ],
+            "diesel_delivery": [
+                [10, 10, 10], 
+                [10, 10, 10]
+            ]
+        }
+    ],
+    "province": [
+        {
+            "gas_need": 40,
+            "diesel_need": 40
+        },
+        {
+            "gas_need": 50,
+            "diesel_need": 50
+        },
+        {
+            "gas_need": 50,
+            "diesel_need": 50
+        },
+        {
+            "gas_need": 60,
+            "diesel_need": 60
+        }
+    ]
+}
